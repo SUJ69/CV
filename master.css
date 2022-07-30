@@ -1,0 +1,77 @@
+#Name{
+  color: #00D7FF;
+  font-size: 70px;
+}
+
+h1{
+  border: 3px double #00D7FF;
+  border-width: thick;
+  border-radius: 2px;
+  color: #00D7FF;
+  font-size: 70px;
+}
+
+#Me{
+  width: 150px;
+  height: 150px;
+  margin-left: 150px;
+  border-bottom: 3px solid #00D7FF;
+  border-top:3px dashed #00D7FF;
+  border-right: 3px solid #00D7FF;
+  border-left: 3px dashed #00D7FF;
+  padding: 30px;
+
+}
+
+#nav{
+  text-align: center;
+  border: 2px double #0096FF;
+  border-radius: 3px;
+
+}
+
+a{
+  margin: 25px;
+  padding: 10px;
+  color: #00D7FF;
+}
+
+a:hover{
+  border: 5px solid white;
+  background-color: white;
+  color: #5800FF;
+  padding: 15px;
+}
+
+body{
+  border: 1px double white;
+  width: 75%;
+  margin-left: 15%;
+  background-color: #A6D1E6;
+}
+
+.body{
+  background-color: #0096FF;
+
+}
+
+p{
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+font-family: 'Josefin Sans', sans-serif;
+color: white;
+}
+
+.intro:hover{
+  border: 1px double white;
+  border-width: 45%;
+  background-color: white;
+  color: #0096FF;
+  padding: 25px;
+  font-size: 35px;
+}
+
+hr{
+  background-color: white;
+  border:3px solid white;
+  width: 55%;
+}
