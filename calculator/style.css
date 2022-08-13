@@ -1,0 +1,85 @@
+body{
+  background-color: #0F3D3E;
+
+}
+.header{
+  text-align: center;
+}
+.header h1{
+  font-family: 'Silkscreen', cursive;
+  font-weight: 400;
+  color: #0F3D3E;
+}
+.header h1:hover{
+  color: #7DCE13;
+}
+.header hr{
+  width: 55%;
+  height: 10px;
+  border-radius: 180px;
+  border-color: #0F3D3E;
+  background-color: #0F3D3E;
+}
+.header hr:hover{
+  background-color: #7DCE13;
+}
+.Calculator{
+  max-width: 75%;
+  max-height: 100%;
+  border: 3px solid #0F3D3E;
+  margin-left: 10%;
+  height: 800px;
+  background-image: linear-gradient(to bottom right,#FF1E00,#E8F9FD,#59CE8F,#000000);
+  background-repeat: repeat-y;
+}
+#out{
+  width: 25%;
+  height: 75px;
+  margin: 5%;
+  margin-left: 35%;
+  background-color: black;
+  color: #7DCE13;
+  text-align: right;
+  resize: none;
+  cursor: pointer;
+}
+#input1{
+  margin-left: 35%;
+  width: 25%;
+  background-color: black;
+  color: #7DCE13;
+  resize: none;
+  cursor: pointer;
+  height: 2em;
+}
+#input2{
+  margin-left: 35%;
+  width: 25%;
+  background-color: black;
+  color: #7DCE13;
+  resize: none;
+  cursor: pointer;
+  margin-top: 15px;
+  height: 2em;
+}
+.top{
+  height: 100px;
+  width: 250px;
+  margin: 55px;
+  border-radius: 90px;
+  background-image: linear-gradient(to bottom right,#F65A83,#FF87B2,#FFE898,#FFF8BC,#FF87B2,#F65A83);
+}
+.top:hover{
+    background-image: linear-gradient(to bottom right,#820000,#B9005B,#FF7C7C,#FEE0C0,#B9005B,#820000);
+    border-color: #FFF89C;
+    border-width: thick;
+    cursor: pointer;
+}
+.AC{
+  width: 450px;
+}
+/*cursor: auto | default | none | context-menu | help | pointer | progress | wait |
+cell | crosshair | text | URL | vertical-text | alias | copy | move | no-drop |
+not-allowed | all-scroll | col-resize | row-resize | n-resize | s-resize | e-resize |
+w-resize | ns-resize | ew-resize | ne-resize | nw-resize | se-resize | sw-resize |
+nesw-resize | nwse-resize | zoom-in | zoom-out | grab | grabbing*/

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-16">
+    <title>Online Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <script src="script1.js"></script>
+    <div class="header">
+      <h1>Online Calculator</h1>
+      <hr><br>
+    </div>
+    <div class="Calculator">
+      <textarea name="out" rows="5" cols="25" id="out" placeholder="0" readonly></textarea><br>
+      <textarea name="out" rows="1" cols="10" id="input1" placeholder="operand1"></textarea><br>
+      <textarea name="out" rows="1" cols="10" id="input2" placeholder="operand2"></textarea>
+      <table>
+        <tr>
+          <td colspan="2"><button type="button" class="top AC" onclick=AC()>AC</button></td>
+          <td><button type="button" class="top" onclick=posNeg()>➕/➖</button></td>
+          <td><button type="button" class="top" onclick=remainder()>%</button></td>
+        </tr>
+        <tr>
+          <td><button type="button" class="top" onclick=division()>➗</button></td>
+          <td><button type="button" class="top" onclick=multiply()>✖</button></td>
+          <td><button type="button" class="top" onclick=subtraction()>➖</button></td>
+          <td><button type="button" class="top" onclick=addition()>➕</button></td>
+        </tr>
+      </table>
+    </div>
+  </body>
+</html>
